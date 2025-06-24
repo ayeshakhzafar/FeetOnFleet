@@ -1,0 +1,101 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Driver Schedule</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+        body {
+            background-image: url('${pageContext.request.contextPath}/resources/images/thisOne.webp');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 50px auto;
+            width: 50%;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        th {
+            background-color: #8FDDE7;
+            color: #333;
+        }
+        td {
+            background-color: #f9f9f9;
+        }
+        input[type=submit], a {
+            display: inline-block;
+            color: #333;
+            text-decoration: none;
+            background-color: #8FDDE7;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        input[type=submit]:hover, a:hover {
+            background-color: #5a5a5a;
+            color: #fff;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Create Driver Schedule</h2>
+        <form action="${pageContext.request.contextPath}/saveDriverSchedule" method="post">
+            <table>
+                <tr>
+                    <td>Driver ID:</td>
+                    <td><input type="text" name="driverId" required></td>
+                </tr>
+                <tr>
+                    <td>Shift Start:</td>
+                    <td><input type="datetime-local" name="shiftStart" required></td>
+                </tr>
+                <tr>
+                    <td>Shift End:</td>
+                    <td><input type="datetime-local" name="shiftEnd" required></td>
+                </tr>
+                <tr>
+                    <td>Rest Period Start:</td>
+                    <td><input type="datetime-local" name="restPeriodStart" required></td>
+                </tr>
+                <tr>
+                    <td>Rest Period End:</td>
+                    <td><input type="datetime-local" name="restPeriodEnd" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Create Schedule"></td>
+                </tr>
+            </table>
+        </form>
+        <br>
+        <a href="${pageContext.request.contextPath}/driverSchedules">Back</a>
+    </div>
+</body>
+</html>
