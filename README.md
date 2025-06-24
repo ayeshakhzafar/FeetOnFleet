@@ -1,4 +1,4 @@
-# 🚗 Fleet Management System
+# 🚗 FeetOnFleet
 
 A full-featured **Fleet Management System** developed using **Spring Framework**, **JSP**, and **MySQL**. The system helps manage vehicles, drivers, maintenance schedules, fuel consumption, and disposal of old vehicles within an organization.
 
@@ -42,26 +42,6 @@ A full-featured **Fleet Management System** developed using **Spring Framework**
 | Data Access    | JDBC, DAO Pattern          |
 | Build Tool     | Maven                      |
 | Deployment     | Apache Tomcat              |
-
----
-
-## 📁 Project Structure
-
-FleetManagementSystem/
-│
-├── src/
-│ ├── bean/ # JavaBeans (Vehicle, Driver, etc.)
-│ ├── controller/ # Spring Controllers
-│ └── dao/ # Data Access Objects
-│
-├── resources/ # Config files (application.properties)
-├── webapp/
-│ ├── WEB-INF/ # web.xml, JSP views
-│ └── assets/ # CSS, JS, images
-│
-├── pom.xml # Maven build configuration
-└── README.md # Project documentation
-
 
 ---
 
