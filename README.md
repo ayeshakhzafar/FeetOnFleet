@@ -52,11 +52,13 @@ A full-featured **Fleet Management System** developed using **Spring Framework**
    git clone https://github.com/your-username/FeetOnFleet.git
    cd FeetOnFleet
 
+
 2. **Import into IDE**
 
 - Use IntelliJ IDEA or Eclipse.
 
 - Import as a Maven project.
+
 
 3. **Set Up the Database**
 
@@ -64,14 +66,13 @@ A full-featured **Fleet Management System** developed using **Spring Framework**
 
 - Import the provided SQL script (/resources/db/fleet_schema.sql) to create tables.
 
+
 4. **Configure application.properties**
 
-properties
-Copy
-Edit
-spring.datasource.url=jdbc:mysql://localhost:3306/fleet_db
-spring.datasource.username=root
-spring.datasource.password=yourpassword
+- spring.datasource.url=jdbc:mysql://localhost:3306/fleet_db
+- spring.datasource.username=root
+- spring.datasource.password=yourpassword
+
 
 5. **Run the Application**
 
