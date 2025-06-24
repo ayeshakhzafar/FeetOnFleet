@@ -60,9 +60,9 @@ A full-featured **Fleet Management System** developed using **Spring Framework**
 
 3. **Set Up the Database**
 
-Create a MySQL database (e.g., fleet_db).
+- Create a MySQL database (e.g., fleet_db).
 
-Import the provided SQL script (/resources/db/fleet_schema.sql) to create tables.
+- Import the provided SQL script (/resources/db/fleet_schema.sql) to create tables.
 
 4. **Configure application.properties**
 
@@ -75,14 +75,14 @@ spring.datasource.password=yourpassword
 
 5. **Run the Application**
 
-Deploy the .war file to Tomcat or run the Spring Boot app.
+- Deploy the .war file to Tomcat or run the Spring Boot app.
 
-Access the app via http://localhost:8080/FeetOnFleet.
+- Access the app via http://localhost:8080/FeetOnFleet.
 
 ## 🧪 Testing
-Manual and automated test cases are documented.
+- Manual and automated test cases are documented.
 
-All bugs tracked using JIRA.
+- All bugs tracked using JIRA.
 
 ## 📹 Demo Video
 
