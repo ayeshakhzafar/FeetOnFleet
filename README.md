@@ -84,21 +84,16 @@ Manual and automated test cases are documented.
 
 All bugs tracked using JIRA.
 
-Screenshots and test evidence included in /docs/test-report/.
+## 📹 Demo Video
 
-## 📷 Screenshots
+Check out the full demo video on LinkedIn:
 
+🔗 [Fleet Management System – Video Demo](https://www.linkedin.com/posts/ayesha-khalid-616640310_fleetmanagement-springframework-jsp-activity-7220456919138779138-n0Oc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE8dz3IB44eb3fDKaajSHFS6KR6q6ny6Nmw)
 
-
-https://www.linkedin.com/posts/ayesha-khalid-616640310_fleetmanagement-springframework-jsp-activity-7220456919138779138-n0Oc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE8dz3IB44eb3fDKaajSHFS6KR6q6ny6Nmw
-
+---
 👩‍💻 Developer
 Ayesha
 Full-stack Developer
 📧 ayeshakhalid.codes@gmail.com 
-
-yaml
-Copy
-Edit
 
 
