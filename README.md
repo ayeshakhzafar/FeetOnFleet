@@ -54,9 +54,9 @@ A full-featured **Fleet Management System** developed using **Spring Framework**
 
 2. **Import into IDE**
 
-Use IntelliJ IDEA or Eclipse.
+- Use IntelliJ IDEA or Eclipse.
 
-Import as a Maven project.
+- Import as a Maven project.
 
 3. **Set Up the Database**
 
